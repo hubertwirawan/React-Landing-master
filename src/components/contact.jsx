@@ -150,7 +150,7 @@ export const Contact = (props) => {
       <div id='footer'>
         <div className='container text-center'>
           <p>
-            &copy; 2022 OSG. 
+            &copy; 2022 MTB. 
             {/* Design by{' '}
             <a href='http://www.templatewire.com' rel='nofollow'>
               TemplateWire

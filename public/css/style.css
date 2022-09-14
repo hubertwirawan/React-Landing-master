@@ -350,12 +350,47 @@ header .intro-text {
 #services .service-desc {
   margin-bottom: 40px;
 }
+
+/* Gallery Section */
+#portfolio {
+  padding: 100px 0;
+}
+
+#portfolio h2 {
+  position: relative;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+#portfolio h3 {
+  position: relative;
+  margin-bottom: 15px;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+#portfolio .about-text1 {
+  line-height: 24px;
+  margin-top: 20px 0;
+  text-align: justify;
+}
+
+#portfolio .about-text2 {
+  line-height: 24px;
+  margin-top: 20px 0;
+  text-align: justify;
+}
+
+#portfolio .row {
+ margin-bottom: 30px;
+ /* background-color: #444; */
+}
 /* Portfolio Section */
 #portfolio {
   padding: 100px 0;
 }
 .portfolio-item {
   margin: 1px -15px 0 -14px;
+  margin-bottom: 10px;
   padding: 0;
 }
 .portfolio-item .hover-bg {

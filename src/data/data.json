@@ -1,6 +1,6 @@
 {
   "Header": {
-    "title": "OSG",
+    "title": "MTB",
     "paragraph": "Provide Services"
   },
   "About": {
@@ -18,18 +18,24 @@
       "Lorem ipsum dolor"
     ]
   },
-  "Gallery": [
-    {
-      "title": "AliquipAliquipAliquipAliquipAliquipAliquip",
-      "largeImage": "img/portfolio/01-large.jpg",
+  "Gallery": {
+    "txt1":[
+      "The most standard type of shipping container is the General Purpose(GP) Container. it is used to carry most of the goods and cargo in the world. it is also known as the dry container or ISO standards container. In general, containers are made of corten steel. These shipping container are entirely confined, shielding from the elements of weather and nature. They also come with floorboards made of marine plywood and steel locking bars for its double leaf swing door"
+    ],
+    "txt2":[
+      "High cube containers are 300mm or 1ft higher than the standard GP containers but the extra headspace of 1ft makes it useful for larger goods. As per standard GP container, high cube containers are secure, wind, and watertight to prevent cargo and items from damage. The extra ceiling height also makes it more spacious for container housing and other customized container space solutions. These containers are also perfect to be used as construction storage containers"
+    ],
+    "Img1":
+    [{
+      "title": "General Purpose Shipping Container",
       "smallImage": "img/portfolio/01-small.jpg"
-    },
-    {
-      "title": "AliquipAliquipAliquipAliquipAliquip",
-      "largeImage": "img/portfolio/02-large.jpg",
+    }],
+    "Img2":
+    [{
+      "title": "High Cube Shipping Container",
       "smallImage": "img/portfolio/02-small.jpg"
-    }
-  ],
+    }]
+},
   "Services": [
     {
       "icon": "fa fa-wrench",
