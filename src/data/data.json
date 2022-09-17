@@ -4,7 +4,7 @@
     "paragraph": "Mitra Trans Bersama"
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "PT Mitra Trans Bersama (MTB) adalah penyedia berbagai jenis container baru dan bekas dengan kualitas tinggi dan harga yang terjangkau, kami mengoperasikan 2 depo yang terletak di Jakarta dan Surabaya sehingga dapat memenuhi kebutuhan container berbagai tipe dan kuantitas.",
     "Why": [
       "Lorem ipsum dolor",
       "Tempor incididunt",
@@ -115,17 +115,17 @@
     {
       "icon": "fa fa-cart-arrow-down",
       "title": "Jual Container",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "text": "Kami menjual berbagai jenis container baik dalam kondisi baru maupun bekas dengan kualitas yang baik"
     },
     {
       "icon": "fa fa-pencil-square-o",
       "title": "Sewa Container",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "text": "Kami menyediakan layanan sewa container untuk segala jenis keperluan dan rentan waktu sesuai kebutuhan anda"
     },
     {
       "icon": "fa fa-wrench",
       "title": "Modifikasi",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "text": "Kami menyediakan jasa modifikasi container sesuai kebutuhan anda"
     }
   ]
 }
