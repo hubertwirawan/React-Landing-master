@@ -15,24 +15,38 @@ export const Carousel = (props) => {
   <div class="carousel-inner">
     <div class="item active">
       <img src="img/portfolio/01-small.jpg" alt="Los Angeles"/>
+      <div class="carousel-caption">
+        <h3>1st</h3>
+        <p>Thank you, Chicago!</p>
+      </div>
     </div>
 
     <div class="item">
       <img src="img/portfolio/02-small.jpg" alt="Chicago"/>
+      <div class="carousel-caption">
+        <h3>2nd</h3>
+        <p>Thank you, Chicago!</p>
+      </div>
     </div>
 
     <div class="item">
       <img src="img/portfolio/01-small.jpg" alt="New York"/>
+      <div class="carousel-caption">
+        <h3>3rd</h3>
+        <p>Thank you, Chicago!</p>
+      </div>
     </div>
   </div>
 
 
   <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
   <a class="right carousel-control" href="#myCarousel" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="glyphicon glyphicon-chevron-right">
+        {/* <i class="fa fa-arrow-circle-right" aria-hidden="true"></i> */}
+        </span>
     <span class="sr-only">Next</span>
   </a>
 </div>

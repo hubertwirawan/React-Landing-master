@@ -8,12 +8,15 @@
   #testimonials,
   #team,
   #contact,
-  #carousel,
+
   #footer {
     width: 111%;
   }
 
   #portfolio {
     width: 110%;
+  }
+  #carousel {
+    width: 100%;
   }
 }
