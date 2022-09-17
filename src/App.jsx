@@ -26,13 +26,16 @@ import { Routes, Route } from 'react-router-dom';
 
 import Home from './components/home';
 import Products from './components/products';
+import { BrowserRouter } from 'react-router-dom';
 
 const App = () => {
   return (
-    <Routes> {/* The Switch decides which component to show based on the current URL.*/}
-      <Route exact path='/home' element={<Home />}></Route>
-      <Route exact path='/products' element={<Products />}></Route>
-    </Routes>
+    <BrowserRouter>
+      <Routes> {/* The Switch decides which component to show based on the current URL.*/}
+        <Route exact path='/home' element={<Home />}></Route>
+        <Route exact path='/products' element={<Products />}></Route>
+      </Routes>
+    </BrowserRouter>
   );
 
 
