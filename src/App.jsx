@@ -30,14 +30,15 @@ import { BrowserRouter } from 'react-router-dom';
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <Routes> {/* The Switch decides which component to show based on the current URL.*/}
-        <Route exact path='/home' element={<Home />}></Route>
-        <Route exact path='/products' element={<Products />}></Route>
-      </Routes>
-    </BrowserRouter>
+    // <BrowserRouter>
+    <Routes>
+      {' '}
+      {/* The Switch decides which component to show based on the current URL.*/}
+      <Route exact path="/" element={<Home />}></Route>
+      <Route exact path="/products" element={<Products />}></Route>
+    </Routes>
+    // </BrowserRouter>
   );
-
 
   // const [landingPageData, setLandingPageData] = useState({});
   // useEffect(() => {
