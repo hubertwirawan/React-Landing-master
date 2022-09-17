@@ -1,7 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { Navigation } from "./navigation";
-// import { ListProduct } from "./listproduct";
+import { ListProduct } from "./listproduct";
 
 import JsonData from "../data/data.json";
 
@@ -15,7 +15,7 @@ const Products = () => {
     <div>
       <Navigation/>
 
-      {/* <ListProduct data={landingPageData.Gallery}/> */}
+      <ListProduct data={landingPageData.Gallery}/>
     </div>
 
 
