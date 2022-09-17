@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export const Header = (props) => {
   return (
     <header id='header'>
@@ -17,6 +19,11 @@ export const Header = (props) => {
                 >
                   Learn More
                 </a>{' '}
+                <Link to="/Products">
+                  <button variant="outlined">
+                    Sign up
+                  </button>
+                </Link>
               </div>
             </div>
           </div>

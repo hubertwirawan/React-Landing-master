@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 export const Navigation = (props) => {
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
@@ -15,7 +17,7 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
             <span className='icon-bar'></span>{' '}
           </button>
-          <a className='navbar-brand page-scroll' href='#page-top'>
+          <a className='navbar-brand page-scroll' href='/home#page-top'>
             MTB
           </a>{' '}
         </div>
@@ -26,27 +28,30 @@ export const Navigation = (props) => {
         >
           <ul className='nav navbar-nav navbar-right'>
             <li>
-              <a href='#features' className='page-scroll'>
+              {/* <Link to="/home" element="#features">
+                    <li>Features</li>
+              </Link> */}
+              <a href="/home#features" className='page-scroll'>
                 Features
               </a>
             </li>
             <li>
-              <a href='#about' className='page-scroll'>
+              <a href='/home#about' className='page-scroll'>
                 About
               </a>
             </li>
             <li>
-              <a href='#services' className='page-scroll'>
+              <a href='/home#services' className='page-scroll'>
                 Services
               </a>
             </li>
             <li>
-              <a href='#portfolio' className='page-scroll'>
+              <a href='/home#portfolio' className='page-scroll'>
                 Products
               </a>
             </li>
             <li>
-              <a href='#testimonials' className='page-scroll'>
+              <a href='/home#testimonials' className='page-scroll'>
                 Our Clients
               </a>
             </li>
@@ -56,7 +61,7 @@ export const Navigation = (props) => {
               </a>
             </li> */}
             <li>
-              <a href='#contact' className='page-scroll'>
+              <a href='/home#contact' className='page-scroll'>
                 Contact
               </a>
             </li>

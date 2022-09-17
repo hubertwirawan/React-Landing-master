@@ -9,6 +9,7 @@
     "emailjs-com": "^2.6.4",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-router-dom": "^6.4.0",
     "react-scripts": "^4.0.2",
     "smooth-scroll": "^16.1.3",
     "typescript": "^3.2.1 || ^4"
@@ -22,8 +23,12 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-    "browserslist": {
-    "production": [">0.2%", "not dead", "not op_mini all"],
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
