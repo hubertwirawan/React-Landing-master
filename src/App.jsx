@@ -13,6 +13,7 @@ import SmoothScroll from "smooth-scroll";
 import "./App.css";
 import React from 'react'
 import { render } from 'react-dom'
+import Products from "./components/products";
 window.React = React
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
@@ -36,6 +37,7 @@ const App = () => {
       <Gallery data={landingPageData.Gallery}/>
       <Testimonials data={landingPageData.Testimonials} />
       {/* <Team data={landingPageData.Team} /> */}
+      <Products/>
       <Contact data={landingPageData.Contact} />
     </div>
   );
