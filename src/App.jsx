@@ -22,7 +22,7 @@
 // });
 
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Redirect, Navigate } from 'react-router-dom';
 
 import Home from './components/home';
 import Products from './components/products';
@@ -34,6 +34,8 @@ const App = () => {
     <Routes>
       {' '}
       {/* The Switch decides which component to show based on the current URL.*/}
+      {/* <Route path="*" element={<Navigate to="/home" />} /> */}
+      <Route path="/" element={<Navigate to="/home" />}></Route>
       <Route exact path="/home" element={<Home />}></Route>
       <Route exact path="/products" element={<Products />}></Route>
     </Routes>
