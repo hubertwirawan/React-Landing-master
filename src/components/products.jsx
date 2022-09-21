@@ -14,7 +14,6 @@ const Products = () => {
   return (
     <div>
       <Navigation/>
-
       <ListProduct data={landingPageData.Gallery}/>
     </div>
 
