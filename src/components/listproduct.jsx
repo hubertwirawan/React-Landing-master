@@ -17,7 +17,7 @@ export const ListProduct = (props) => {
                 <div className="card" style={{width:"100%"}}>
                   <img class="card-img-top" src="img/20ftctr2.png" alt="Card image cap" width={"100%"} />
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <h5 class="card-title">20GP</h5>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   </div>
                 </div>
@@ -68,7 +68,7 @@ export const ListProduct = (props) => {
       </div>
       <div className='container'>
         <div className='section-title'>
-          <h2>DRY</h2>
+          <h2>REEF</h2>
           <p>
             List of Products
           </p>

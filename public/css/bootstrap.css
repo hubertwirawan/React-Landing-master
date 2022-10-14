@@ -4283,7 +4283,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   text-decoration: none;
 }
 .navbar-brand > img {
+
   display: block;
+  width:90px;
+  /* float: left;
+  position: absolute; */
+  margin-top: -15px;
+
 }
 @media (min-width: 768px) {
   .navbar > .container .navbar-brand,
